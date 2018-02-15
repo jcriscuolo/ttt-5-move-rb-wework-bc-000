@@ -5,5 +5,11 @@ def display_board(board)
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
-
+def input_to_index
+  user_input = gets.chomp.to_i
+  converted_input = input_to_index(user_input)
+  
+end
+def move
+end
 # code your input_to_index and move method here!
