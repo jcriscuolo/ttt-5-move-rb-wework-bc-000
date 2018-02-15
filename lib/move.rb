@@ -6,7 +6,7 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 def input_to_index
-  user_input = gets.chomp.to_i
+  user_input = gets.to_i
   converted_input = input_to_index(user_input)
   
 end
